@@ -18,6 +18,8 @@
 		357FBBC620B9A92A00FA6A97 /* XLsn0wNib.m in Sources */ = {isa = PBXBuildFile; fileRef = 357FBBC420B9A92A00FA6A97 /* XLsn0wNib.m */; };
 		357FBBC920B9AD0C00FA6A97 /* NibView.m in Sources */ = {isa = PBXBuildFile; fileRef = 357FBBC820B9AD0C00FA6A97 /* NibView.m */; };
 		357FBBCB20B9AD1A00FA6A97 /* NibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 357FBBCA20B9AD1A00FA6A97 /* NibView.xib */; };
+		357FBBCF20B9B57A00FA6A97 /* flagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 357FBBCC20B9B57900FA6A97 /* flagView.m */; };
+		357FBBD020B9B57A00FA6A97 /* flagView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 357FBBCE20B9B57A00FA6A97 /* flagView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,9 @@
 		357FBBC720B9AD0C00FA6A97 /* NibView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NibView.h; sourceTree = "<group>"; };
 		357FBBC820B9AD0C00FA6A97 /* NibView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NibView.m; sourceTree = "<group>"; };
 		357FBBCA20B9AD1A00FA6A97 /* NibView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NibView.xib; sourceTree = "<group>"; };
+		357FBBCC20B9B57900FA6A97 /* flagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = flagView.m; sourceTree = "<group>"; };
+		357FBBCD20B9B57900FA6A97 /* flagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flagView.h; sourceTree = "<group>"; };
+		357FBBCE20B9B57A00FA6A97 /* flagView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = flagView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +119,9 @@
 				357FBB9220B9A8DA00FA6A97 /* AppDelegate.m */,
 				357FBB9420B9A8DA00FA6A97 /* ViewController.h */,
 				357FBB9520B9A8DA00FA6A97 /* ViewController.m */,
+				357FBBCD20B9B57900FA6A97 /* flagView.h */,
+				357FBBCC20B9B57900FA6A97 /* flagView.m */,
+				357FBBCE20B9B57A00FA6A97 /* flagView.xib */,
 				357FBBC720B9AD0C00FA6A97 /* NibView.h */,
 				357FBBC820B9AD0C00FA6A97 /* NibView.m */,
 				357FBBCA20B9AD1A00FA6A97 /* NibView.xib */,
@@ -258,6 +266,7 @@
 			files = (
 				357FBBCB20B9AD1A00FA6A97 /* NibView.xib in Resources */,
 				357FBB9E20B9A8DB00FA6A97 /* LaunchScreen.storyboard in Resources */,
+				357FBBD020B9B57A00FA6A97 /* flagView.xib in Resources */,
 				357FBB9B20B9A8DB00FA6A97 /* Assets.xcassets in Resources */,
 				357FBB9920B9A8DA00FA6A97 /* Main.storyboard in Resources */,
 			);
@@ -284,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				357FBBCF20B9B57A00FA6A97 /* flagView.m in Sources */,
 				357FBBC920B9AD0C00FA6A97 /* NibView.m in Sources */,
 				357FBB9620B9A8DA00FA6A97 /* ViewController.m in Sources */,
 				357FBBA120B9A8DB00FA6A97 /* main.m in Sources */,
