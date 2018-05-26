@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "XLsn0wNib.h"
+#import "NibView.h"
+
 
 @interface ViewController ()
 
@@ -17,6 +20,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
+    
+   
+    NibView* nibView = (NibView*)[XLsn0wNib loadNib:@"NibView"];
+    [self.view addSubview:nibView];
 }
 
 
