@@ -7,6 +7,8 @@
 
 ///通过xib来创建view
 + (UIView *)loadNib:(NSString *)xibName {
+    
+    
     return [[XLsn0wNibBundle loadNibNamed:xibName owner:nil options:nil] firstObject];
 }
 
