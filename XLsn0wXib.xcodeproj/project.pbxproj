@@ -20,6 +20,7 @@
 		357FBBCB20B9AD1A00FA6A97 /* NibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 357FBBCA20B9AD1A00FA6A97 /* NibView.xib */; };
 		357FBBCF20B9B57A00FA6A97 /* flagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 357FBBCC20B9B57900FA6A97 /* flagView.m */; };
 		357FBBD020B9B57A00FA6A97 /* flagView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 357FBBCE20B9B57A00FA6A97 /* flagView.xib */; };
+		CDB677A020BD1B5C00726A17 /* XLsn0wOnce.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6779F20BD1B5C00726A17 /* XLsn0wOnce.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		357FBBCC20B9B57900FA6A97 /* flagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = flagView.m; sourceTree = "<group>"; };
 		357FBBCD20B9B57900FA6A97 /* flagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flagView.h; sourceTree = "<group>"; };
 		357FBBCE20B9B57A00FA6A97 /* flagView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = flagView.xib; sourceTree = "<group>"; };
+		CDB6779E20BD1B5C00726A17 /* XLsn0wOnce.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLsn0wOnce.h; sourceTree = "<group>"; };
+		CDB6779F20BD1B5C00726A17 /* XLsn0wOnce.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLsn0wOnce.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +160,8 @@
 			children = (
 				357FBBC520B9A92A00FA6A97 /* XLsn0wNib.h */,
 				357FBBC420B9A92A00FA6A97 /* XLsn0wNib.m */,
+				CDB6779E20BD1B5C00726A17 /* XLsn0wOnce.h */,
+				CDB6779F20BD1B5C00726A17 /* XLsn0wOnce.m */,
 			);
 			path = XLsn0wNib;
 			sourceTree = "<group>";
@@ -293,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDB677A020BD1B5C00726A17 /* XLsn0wOnce.m in Sources */,
 				357FBBCF20B9B57A00FA6A97 /* flagView.m in Sources */,
 				357FBBC920B9AD0C00FA6A97 /* NibView.m in Sources */,
 				357FBB9620B9A8DA00FA6A97 /* ViewController.m in Sources */,

@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "XLsn0wNib.h"
 #import "NibView.h"
+#import "flagView.h"
 
 
 @interface ViewController ()
@@ -20,10 +21,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-
     
-   
     NibView* nibView = (NibView*)[XLsn0wNib loadNib:@"NibView"];
+    nibView.frame = CGRectMake(0, 0, 200, 200);
     [self.view addSubview:nibView];
 }
 

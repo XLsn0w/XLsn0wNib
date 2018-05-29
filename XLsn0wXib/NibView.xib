@@ -15,8 +15,46 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NibView">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kb3-gK-MmY">
+                    <rect key="frame" x="50" y="120" width="275" height="84"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="X6W-5S-Von"/>
+                        <constraint firstAttribute="height" constant="128" id="pVn-L8-2Ua"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bD2-ID-7qP">
+                    <rect key="frame" x="100" y="220" width="47" height="74"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="Sis-qQ-fBK"/>
+                        <constraint firstAttribute="width" constant="46" id="bIl-6h-Qcd"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="46" id="tQa-fk-beH"/>
+                        <constraint firstAttribute="height" constant="30" id="xLi-CL-7j2"/>
+                    </constraints>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+            </subviews>
             <color key="backgroundColor" red="0.14051208825256967" green="0.38234436427016316" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="agD-0V-xQw" firstAttribute="trailing" secondItem="Kb3-gK-MmY" secondAttribute="trailing" constant="100" id="Ckj-Ga-1xp"/>
+                <constraint firstItem="agD-0V-xQw" firstAttribute="trailing" secondItem="bD2-ID-7qP" secondAttribute="trailing" constant="229" id="GvF-G7-rcm"/>
+                <constraint firstItem="agD-0V-xQw" firstAttribute="trailing" secondItem="Kb3-gK-MmY" secondAttribute="trailing" constant="50" id="J2A-Zd-FOg"/>
+                <constraint firstItem="bD2-ID-7qP" firstAttribute="leading" secondItem="agD-0V-xQw" secondAttribute="leading" constant="50" id="Jru-hD-ccA"/>
+                <constraint firstItem="Kb3-gK-MmY" firstAttribute="top" secondItem="agD-0V-xQw" secondAttribute="top" constant="100" id="aoW-87-dLz"/>
+                <constraint firstItem="agD-0V-xQw" firstAttribute="bottom" secondItem="bD2-ID-7qP" secondAttribute="bottom" constant="373" id="dTK-HX-VUq"/>
+                <constraint firstItem="bD2-ID-7qP" firstAttribute="top" secondItem="agD-0V-xQw" secondAttribute="top" constant="250" id="eW9-Rx-qzP"/>
+                <constraint firstItem="bD2-ID-7qP" firstAttribute="leading" secondItem="Kb3-gK-MmY" secondAttribute="leading" constant="50" id="fJl-Bo-UmE"/>
+                <constraint firstItem="agD-0V-xQw" firstAttribute="trailing" secondItem="bD2-ID-7qP" secondAttribute="trailing" constant="228" id="h5j-os-e0P"/>
+                <constraint firstItem="bD2-ID-7qP" firstAttribute="leading" secondItem="agD-0V-xQw" secondAttribute="leading" constant="101" id="hsU-hI-skf"/>
+                <constraint firstItem="bD2-ID-7qP" firstAttribute="top" secondItem="Kb3-gK-MmY" secondAttribute="top" constant="100" id="m0u-YE-aAx"/>
+                <constraint firstItem="Kb3-gK-MmY" firstAttribute="leading" secondItem="agD-0V-xQw" secondAttribute="leading" constant="50" id="p7E-5g-hkP"/>
+                <constraint firstItem="bD2-ID-7qP" firstAttribute="top" secondItem="Kb3-gK-MmY" secondAttribute="bottom" constant="16" id="tVv-XZ-gKT"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="agD-0V-xQw"/>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
         </view>
     </objects>
 </document>
